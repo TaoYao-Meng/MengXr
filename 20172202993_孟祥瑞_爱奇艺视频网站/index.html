@@ -1,0 +1,311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>webTX</title>
+<link rel="stylesheet" href="css/webcounction.css" type="text/css" />
+<script type="text/javascript" src="potarypointingMap.js"></script>
+<style type="text/css">
+
+</style>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+</head>
+
+<body background="img/zhihu.png">
+<form class="sousuo">
+<img id="xiechengPicture"src="img/aiqiyi.png" width="126" height="43" align="middle"/>
+<input  class="sousuo1" type="text" style="width:200px ; height:25px"/><input class="sousuo2" type="button" value="搜索" style="height:30px; width:50px; background:#55AAEE; border:none;border-radius: 2px; color: white;"/>
+</form>
+
+<div class="nav">
+
+<ul>
+   <li><a href="#">电视剧</a>
+        <div class="submenu" id="">
+        <ul>
+         <li><a href="#">海外剧</a></li>
+         <li><a href="#">网络剧</a></li>
+         <li><a href="#">年度大剧</a></li>
+         <li><a href="#">口碑好剧</a></li>
+        </ul>
+        </div>
+   </li>
+   <li><a href="#">电影</a>
+   <div class="submenu" id="">
+     <ul>
+         <li><a href="#">院线大片</a></li>
+         <li><a href="#">自制电影</a></li>
+         <li><a href="#">内地</a></li>
+         <li><a href="#">欧美大片</a></li>
+     </ul>
+     </div>
+   </li>  
+   <li><a href="#">综艺</a>
+   <div class="submenu" id="">
+       <ul>
+         <li><a href="#">真人秀</a></li>
+         <li><a href="#">独播</a></li>
+         <li><a href="#">脱口秀</a></li>
+         <li><a href="#">访谈</a></li>
+       </ul>
+       </div>
+   </li>
+   <li><a href="#">动漫</a>
+   <div class="submenu" id="">
+       <ul>
+         <li><a href="#">国漫</a></li>
+         <li><a href="#">日漫</a></li>
+         <li><a href="#">经典</a></li>
+         <li><a href="#">治愈</a></li>
+       </ul>
+       </div>
+      </li> 
+      
+    <li><a href="#">纪录片</a>
+   <div class="submenu" id="">
+     <ul>
+         <li><a href="#">美食</a></li>
+         <li><a href="#">自然</a></li>
+         <li><a href="#">历史</a></li>
+         <li><a href="#">人文</a></li>
+     </ul>
+     </div>
+   </li>  
+   
+   <li><a href="#">少儿</a>
+   <div class="submenu" id="">
+     <ul>
+         <li><a href="#">益智</a></li>
+         <li><a href="#">儿歌</a></li>
+         <li><a href="#">玩具</a></li>
+         <li><a href="#">英语</a></li>
+     </ul>
+     </div>
+   </li>  
+   
+   <li><a href="webcreate_l.html">邮箱</a>
+
+   </li>  
+   <li><a href="webcreate_d.html">登录</a>
+
+   </li>
+</ul>
+</div>
+<div class="jqwriter">
+<div class="jqfade">
+<button id="button1">最近热搜</button>
+<div id="div1" style="width:300px;height:100px;display:none;"><a href="img/6.jpg"><img src="img/6.jpg" width="300px" height="100px"/></a></div>
+<div id="div2" style="width:300px;height:100px;display:none;"><a href="img/7.jpg"><img src="img/7.jpg"width="300px" height="100px" /></a></div>
+<div id="div3" style="width:300px;height:100px;display:none;"><a href="img/8.jpg"><img src="img/8.jpg" width="300px" height="100px"/></a></div>
+</div>
+
+
+<div class="box" id="box">
+    <div class="inner">
+        <!--轮播图-->
+        <ul>
+            <li><a href="img/12.jpg"><img src="img/12.jpg" alt=""></a></li>
+            <li><a href="img/22.jpg"><img src="img/22.jpg" alt=""></a></li>
+            <li><a href="img/32.jpg"><img src="img/32.jpg" alt=""></a></li>
+            <li><a href="img/42.jpg"><img src="img/42.jpg" alt=""></a></li>
+            <li><a href="img/52.jpg"><img src="img/52.jpg" alt=""></a></li>
+ 
+        </ul>
+ 
+        <ol class="bar">
+ 
+        </ol>
+        <!--左右焦点-->
+        <div id="arr">
+                    <span id="left">
+                        <
+                    </span>
+            <span id="right">
+                        >
+        </span></div>
+    </div>
+</div>
+<div class="jqfade2">
+<button id="button1">最近热搜</button>
+<div id="div4" style="width:300px;height:100px;display:none;"><a href="img/6.jpg"><img src="img/6.jpg" width="300px" height="100px"/></a></div>
+<div id="div5" style="width:300px;height:100px;display:none;"><a href="img/7.jpg"><img src="img/7.jpg"width="300px" height="100px" /></a></div>
+<div id="div6" style="width:300px;height:100px;display:none;"><a href="img/8.jpg"><img src="img/8.jpg" width="300px" height="100px"/></a></div>
+</div>
+</div>
+
+<div class="cssp">
+<div class="left" onclick="start();"></div>
+<div class="center" onclick="start2();"></div>
+<div class="right" onclick="start3();"></div>
+
+</div>
+
+<div class="from">
+<div class="fromTX">
+<div class="copyright_zheng">
+			软件工程| 20172202993| 孟祥瑞
+		</div>
+        <div class="footermenu">
+			关于网站| About Web| 服务条款| 广告服务| 网站招聘| 客服中心 
+		</div>
+        <div class="copyrighten">Copyright © 1999 - <span>2019</span> Webcreate. All Rights Reserved.</a></div>
+        <div class="copyrightzh">wv公司 版权所有</div>
+</div>
+</div>
+<script type="text/javascript">
+function start(){
+			window.location.href="webcreate_v.html";
+}
+function start2(){
+			window.location.href="webcreate_m.html";
+}
+function start3(){
+			window.location.href="webcreate_s.html";
+}
+$(document).ready(function(){
+   $("button").click(function(){
+    $("#div1").fadeToggle();
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle(3000);
+	$("#div4").fadeToggle();
+    $("#div5").fadeToggle("slow");
+    $("#div6").fadeToggle(3000);
+  });
+});
+
+
+    function my$(id) {
+        return document.getElementById(id);
+    }
+ 
+    //获取各元素，方便操作
+    var box=my$("box");
+    var inner=box.children[0];
+    var ulObj=inner.children[0];
+    var list=ulObj.children;
+    var olObj=inner.children[1];
+    var arr=my$("arr");
+    var imgWidth=inner.offsetWidth;
+    var right=my$("right");
+    var pic=0;
+    //根据li个数，创建小按钮
+    for(var i=0;i<list.length;i++){
+        var liObj=document.createElement("li");
+ 
+        olObj.appendChild(liObj);
+        liObj.innerText=(i+1);
+        liObj.setAttribute("index",i);
+ 
+        //为按钮注册mouseover事件
+        liObj.onmouseover=function () {
+            //先清除所有按钮的样式
+ 
+            for (var j=0;j<olObj.children.length;j++){
+                olObj.children[j].removeAttribute("class");
+            }
+            this.className="current";
+            pic=this.getAttribute("index");
+            animate(ulObj,-pic*imgWidth);
+        }
+ 
+    }
+ 
+ 
+    //设置ol中第一个li有背景颜色
+    olObj.children[0].className = "current";
+    //克隆一个ul中第一个li,加入到ul中的最后=====克隆
+    ulObj.appendChild(ulObj.children[0].cloneNode(true));
+ 
+    var timeId=setInterval(onmouseclickHandle,3000);
+    //左右焦点实现点击切换图片功能
+    box.onmouseover=function () {
+        arr.style.display="block";
+        clearInterval(timeId);
+    };
+    box.onmouseout=function () {
+        arr.style.display="none";
+        timeId=setInterval(onmouseclickHandle,3000);
+    };
+ 
+    right.onclick=onmouseclickHandle;
+    function onmouseclickHandle() {
+        //如果pic的值是5,恰巧是ul中li的个数-1的值,此时页面显示第六个图片,而用户会认为这是第一个图,
+        //所以,如果用户再次点击按钮,用户应该看到第二个图片
+        if (pic == list.length - 1) {
+            //如何从第6个图,跳转到第一个图
+            pic = 0;//先设置pic=0
+            ulObj.style.left = 0 + "px";//把ul的位置还原成开始的默认位置
+        }
+        pic++;//立刻设置pic加1,那么此时用户就会看到第二个图片了
+        animate(ulObj, -pic * imgWidth);//pic从0的值加1之后,pic的值是1,然后ul移动出去一个图片
+        //如果pic==5说明,此时显示第6个图(内容是第一张图片),第一个小按钮有颜色,
+        if (pic == list.length - 1) {
+            //第五个按钮颜色干掉
+            olObj.children[olObj.children.length - 1].className = "";
+            //第一个按钮颜色设置上
+            olObj.children[0].className = "current";
+        } else {
+            //干掉所有的小按钮的背景颜色
+            for (var i = 0; i < olObj.children.length; i++) {
+                olObj.children[i].removeAttribute("class");
+            }
+            olObj.children[pic].className = "current";
+        }
+    }
+    left.onclick=function () {
+        if (pic==0){
+            pic=list.length-1;
+            ulObj.style.left=-pic*imgWidth+"px";
+        }
+        pic--;
+        animate(ulObj,-pic*imgWidth);
+        for (var i = 0; i < olObj.children.length; i++) {
+            olObj.children[i].removeAttribute("class");
+        }
+        //当前的pic索引对应的按钮设置颜色
+        olObj.children[pic].className = "current";
+    };
+ 
+    //设置任意的一个元素,移动到指定的目标位置
+    function animate(element, target) {
+        clearInterval(element.timeId);
+        //定时器的id值存储到对象的一个属性中
+        element.timeId = setInterval(function () {
+            //获取元素的当前的位置,数字类型
+            var current = element.offsetLeft;
+            //每次移动的距离
+            var step = 10;
+            step = current < target ? step : -step;
+            //当前移动到位置
+            current += step;
+            if (Math.abs(current - target) > Math.abs(step)) {
+                element.style.left = current + "px";
+            } else {
+                //清理定时器
+                clearInterval(element.timeId);
+                //直接到达目标
+                element.style.left = target + "px";
+            }
+        }, 30);
+    }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

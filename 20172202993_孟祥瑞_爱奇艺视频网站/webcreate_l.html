@@ -1,0 +1,268 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Email</title>
+<style type="text/css">
+
+
+.header {
+    width: 1000px;
+    height: 64px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+
+}
+
+#p1{font-family:PingFangSC-Medium,Microsoft YaHei,verdana,Simsun,STXihei;color: #777;}
+
+.headerNav {
+    top: 1px;
+    right: 16px;
+    text-align: right;
+    color: #cfd0d0;
+	position: absolute;
+	font-family: PingFangSC-Medium,Microsoft YaHei,verdana,Simsun,STXihei;
+}
+.headerNav a {
+    padding-left: 13px;
+    display: inline-block;
+	
+}
+a {
+    text-decoration: none;
+    color: #848585;
+    background: #fff;
+    font-size: 12px;
+    line-height: 166.6%;
+	
+}
+
+.main {
+    height: 550px;
+    background: #fff;
+    position: relative;
+    min-width: 1000px;
+}
+
+.login {
+	width: 450px;
+	top: 37px;
+	right: 362px;
+	text-align: left;
+	position: absolute;
+	z-index: 2;
+	background: #fff;
+	border-radius: 8px;
+	background-image: linear-gradient(-180deg,#fff,#f4f4f4);
+	box-shadow: 2px 2px 5px rgba(0,0,0,.1), -2px -2px 5px rgba(0,0,0,.1);
+	height: 419px;
+}
+
+.loginFuncApp, .login.tab-2 .loginFuncNormal {
+    position: relative;
+    color: #3182d9;
+}
+.loginFuncApp, .loginFuncNormal {
+    letter-spacing: 1px;
+    width: 224px;
+    overflow: hidden;
+    position: relative;
+    line-height: 48px;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    color: #626262;
+    cursor: pointer;
+    font-weight: 100;
+    font-family: PingFangSC-Medium,Microsoft YaHei,verdana,Simsun,STXihei;
+}
+
+.inputbox {
+ width:300px;height:35px; font-size:20px;
+}
+
+.footer {
+    width: 1000px;
+    color: #848585;
+    margin: 22px auto 0;
+}
+.aa{
+	font-size:11px;
+	 color: #848585;
+	}
+	
+/* .login11{
+    width:100px;
+	height:100px;
+	position: relative;
+	top:20px;
+	left:50px;
+} */
+.input1{
+	height:42px; width:350px;
+	font-size:16px;
+	position:relative;
+	}
+.input2{
+	height: 47px;
+	width: 161px;
+	/* float:left; */
+	text-align: center;
+	border-radius: 20px;
+	background-color: #ff6428; 
+	color: white;
+	cursor: pointer;
+	border: 1px solid #ff6428;
+	outline:none;
+	}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<div >
+<p id="p1"><img id="img1" src="img/aiqiyi.png" width="136px" height="50px" align="middle" ></p>
+</div>
+<dic class="headerNav">
+<a href="https://qiye.163.com/" target="_blank" >企业详情</a>
+<a href="https://vip.163.com/?b08abh1" target="_blank" >VIP登录</a>
+<a href="https://hw.mail.163.com/#163" target="_blank" >国外用户登陆</a>
+<a href="https://mail.163.com/dashi/?from=mail13" target="_blank" >手机版</a>
+<a href="http://mail.163.com/dashi/?from=mail1&gotodownload=1" target="_blank" >电脑版</a>
+<a href="https://help.mail.163.com/" target="_blank" >帮助</a>
+<a href="https://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac24ebe7a3165848018" target="_blank" >常见问题</a>
+<a href="https://v.mail.163.com/?from=logintop" target="_blank" >私人助理</a>
+<a href="https://help.mail.163.com/newfeedback.do?m=add" target="_blank" >登陆反馈</a>
+</div>
+</div>
+
+<div class="main" style="background-color:rgb(243,244,246)";>
+
+<div id="loginBlock" class="login tab-2">
+<div>
+  <div id="11" class="loginFuncApp">二维码登录</div>
+</div>
+<div id="12" class="loginFuncNormal">邮箱密码登陆</div>
+<br />
+<div id="" style="text-align: center" >
+
+ <br/><br /> <br/><br />
+<form>
+  <input class="input1" id="login" type="text"  />
+  <br /><br />
+  <input class="input1" id="password" type="password"  />
+  <br/><br /> <br/><br /> <br/><br />
+  <input class="input2"  type="button" value="登录" onclick="checkReg();"/>&nbsp;&nbsp;&nbsp;
+  <input class="input2" type="button" value="注册"  />
+
+</form>
+</div>
+
+
+</div>
+<center><img src="img/zhihu.png" width="1013" height="552" /></center>
+
+</div>
+<br />
+
+<div id="footer" class="footer">
+<a href="https://www.163.com/" target="_blank" ><img border="0" src="img/aiqiyi.png" width="92px" height="28px" /></a>
+<div align="center" class="aa" >
+<a href="https://www.163.com/" target="_blank"  class="" >爱奇艺首页</a>
+&nbsp; <a href="https://3c.163.com/?from=pdengluyetoutu1" class="aa" target="_blank">爱奇艺智造</a> 
+&nbsp; <a href="https://qian.163.com/" class="aa" target="_blank">爱奇艺`有钱</a>
+&nbsp; <a href="https://you.163.com/" class="aa" target="_blank">爱奇艺易严选</a>
+&nbsp; <a href="https://help.mail.163.com/faqDetail.do?code=d7a5dc8471cd0c0e8b4b8f4f8e49998b374173cfe9171305fa1ce630d7f67ac2842e8b50ff6a4ebb" class="aa" target="_blank">政府公益热线</a>
+
+<br /><br />
+<center>爱奇艺公司版权所有&copy 1997-2019 <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" class="aa">粤公网安备11000002000001号</a></center>
+</div>
+
+</div>
+
+<script type="text/javascript">
+function $(id){return document.getElementById(id);}
+function checkReg(){
+	var username=$("login").value;
+	var pwd=$("password").value;
+	var checkright=true;
+	
+	if(username==""||pwd==""){
+		alert("请确认用户名和密码输入是否正确！！");
+		checkright=false;
+		}
+	else{
+		if(pwd.length<6){
+			alert("密码数小于6位");
+			checkReg=false;
+			}
+		if(!hasLetter(pwd)){
+			alert("密码中没有字母");
+			
+			}
+		if(!hasBLetter(pwd)){
+			alert("密码中无大写字母");
+			}
+		if(!hasSLetter(pwd)){
+			alert("密码中无小写字母");
+			}
+		if(!hasNLetter(pwd)){
+			
+			alert("密码中无数字");
+			}
+		
+		}
+	
+	}
+	
+function hasLetter(str){
+	for (var i in str) {
+        var asc = str.charCodeAt(i);
+        if ((asc >= 65 && asc <= 90 || asc >= 97 && asc <= 122)) {
+            return true;
+        }
+    }
+    return false;
+	
+	}
+
+function hasBLetter(str){
+	for (var i in str) {
+        var asc = str.charCodeAt(i);
+        if ((asc >= 65 && asc <= 90 )) {
+            return true;
+        }
+    }
+    return false;
+	
+	}
+function hasSLetter(str){
+	for (var i in str) {
+        var asc = str.charCodeAt(i);
+        if ((asc >= 97 || asc <= 122 )) {
+            return true;
+        }
+    }
+    return false;
+	
+	}
+		
+function hasNLetter(str){
+	for (var i in str) {
+        var asc = str.charCodeAt(i);
+        if ((asc>=48 &&asc <= 57 )) {
+            return true;
+        }
+    }
+    return false;
+	
+	}
+
+</script>
+</body>
+</html>
